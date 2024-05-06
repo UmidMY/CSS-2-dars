@@ -1,0 +1,33 @@
+body{
+    background-color: brown;
+}
+.box{
+    color: white;
+    border: 5px solid white; /* solid,dotted,dashed,double,ridge,groove,inset,outset */
+    /*border-width: 5px;*/
+    border-top-width: 6px;
+    border-right-width: 8px;
+    border-bottom-width: 4px;
+    border-left-width: 7px;
+    /*border-style: solid;*/
+    border-top-style: dotted;
+    border-right-style: double;
+    border-bottom-style: inset;
+    border-left-style: dashed;
+    /*border-color: white;*/
+    border-top-color: yellow;
+    border-right-color: green;
+    border-bottom-color: aqua;
+    border-left-color: springgreen;
+    text-align: left;               /* left(default code),center,right,justify */
+    text-transform: none;           /* none(default code),uppercase,lowercase,capitalize */
+    text-decoration: none;          /* none(default code),underline,overline,line-through */
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    line-height: 15px;
+}
+/*a{
+    color: white;
+    text-decoration: none;
+}*/
+
